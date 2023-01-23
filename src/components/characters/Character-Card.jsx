@@ -39,7 +39,7 @@ export function CharacterCard({ characters }) {
         </div>
         <div className="card__info-wrapper location">
           <span>Localización del personaje</span>
-          <span>{item.location.name}</span>
+          {/* <span>{item.location.name}</span> */}
         </div>
       </section>
     </article>

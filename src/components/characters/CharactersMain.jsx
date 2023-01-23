@@ -15,7 +15,7 @@ export function CharactersMain({}) {
     
     fetchData(charactersUrl);
     
-  }, [data]);
+  }, []);
 
   return (
     <>
