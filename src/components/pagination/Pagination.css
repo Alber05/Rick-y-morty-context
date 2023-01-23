@@ -1,0 +1,28 @@
+
+.pagination{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.pagination__buttons{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    place-content: center;
+    gap: 2rem;
+}
+
+
+.pagination__button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 239, 239, 0.342);
+    border: 1px solid #c7d555;
+    cursor: pointer;
+}
